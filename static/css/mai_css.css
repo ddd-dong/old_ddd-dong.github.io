@@ -15,6 +15,9 @@ body{
     margin-left: -7.7px;
     box-sizing: border-box;
     padding: 0.1px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
 }
 #box_homepage{
     margin-top: -8px;
@@ -67,9 +70,6 @@ body{
 
 #box_homepage{
     background-image: url(/static/img/illust_94506059_20220323_020733.jpg);
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: cover;
 }
 
 #homepage_coverbox{
@@ -102,9 +102,12 @@ body{
 }
 
 #cover_text{
-    margin-left: 70%;
+    margin-left: 62%;
 }
 /* About_me */
+#box_aboutme{
+    /* background-image: url(/static/img/skybg.jpg); */
+}
 .aboutme_photo{
     border-radius: 150px;
     background: #fff;
